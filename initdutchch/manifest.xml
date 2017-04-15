@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" uuid="initdutchch-b5a3f2">
+ <names>
+  <name lang="en_US">initdutch</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Pepper asks to be tickled and you can tickle him by touching his tablet. It exits automatically after 15 seconds without being tickled.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>nl_NL</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>nl_NL</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.3"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>

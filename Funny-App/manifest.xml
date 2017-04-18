@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="funny-app-8475f4">
+<package uuid="funny-app-8475f4" version="0.0.0">
  <names>
   <name lang="en_US">Funny things</name>
   <name lang="nl_NL">Doe eens gek</name>
@@ -33,11 +33,10 @@
     <sentence lang="en_US">Let's do funny things</sentence>
     <sentence lang="nl_NL">Laten we eens gek doen</sentence>
    </loadingResponses>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <dialogContent topicName="Praatmetme" typeVersion="1.0">
-   <topic language="nl_NL" path="Praatmetme/Praatmetme_dun.top"/>
+   <topic path="Praatmetme/Praatmetme_dun.top" language="nl_NL"/>
   </dialogContent>
  </contents>
  <requirements>

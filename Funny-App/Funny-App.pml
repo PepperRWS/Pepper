@@ -12,7 +12,7 @@
         <File name="epicsax" src="behavior_1/epicsax.ogg" />
     </Resources>
     <Topics>
-        <Topic name="Praatmetme_dun" src="Praatmetme/Praatmetme_dun.top" topicName="Praatmetme" language="nl_NL" />
+        <Topic name="Praatmetme_dun" src="Praatmetme/Praatmetme_dun.top" topicName="" language="" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

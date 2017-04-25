@@ -3,9 +3,6 @@
  <names>
   <name lang="en_US">initdutch</name>
  </names>
- <descriptions>
-  <description lang="en_US">Pepper asks to be tickled and you can tickle him by touching his tablet. It exits automatically after 15 seconds without being tickled.</description>
- </descriptions>
  <supportedLanguages>
   <language>en_US</language>
   <language>nl_NL</language>
@@ -22,7 +19,6 @@
   </behaviorContent>
  </contents>
  <requirements>
-  <naoqiRequirement minVersion="2.3"/>
   <robotRequirement model="JULIETTE"/>
  </requirements>
 </package>

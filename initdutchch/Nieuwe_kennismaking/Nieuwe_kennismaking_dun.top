@@ -1,0 +1,14 @@
+topic: ~Nieuwe_kennismaking()
+language: dun
+
+concept:(hallo) [hallo hoi hi hey goedendag goeiedag goeiendag]
+concept:(mijn_naam) ["ik heet" "mijn naam is" "noem mij maar" "ze noemen mij"]
+concept:(nee) [nee "{nee} liever niet" "{nee} dat wil ik {liever} niet" "{nee} absoluut niet"]
+concept:(ja) [ja "{ja} ["leuk {idee}" graag prima oké "doe maar" gaaf]"]
+concept:(tot_ziens) ["tot ziens" dag doei "de mazzel" "tot kijk"]
+
+u:(e:onStart) ^start(animations/Stand/Gestures/Hey_1) ~hallo ~mijn_naam Peppur Ik wil graag kennis met je maken ^gotoReactivate(kennismaking)
+
+proposal: %kennismaking Ik kan je gezicht en naam onthouden vind je dat goed?
+    u1:(~nee) Jammer $onStopped=1
+    u1:(~ja) Oké wat leuk, dan wil ik je vragen je naam in te voeren op mijn scherm en daarna mijn aanwijzingen te volgen. $onNaam_Invoer=1 $onStopped=1
